@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "sidebar.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
 <div class="main-content">
 	{{ if .Site.Data.experience }}{{ partial "experience.html" . }}{{ end }}
