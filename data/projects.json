@@ -1,0 +1,31 @@
+{
+	"title" : "Projects",
+	"projects" : [
+		{
+			"icon" : "cubes",
+			"title" : "Stackbox",
+			"website": "https://github.com/Stack-Box/stackbox",
+			"website_alt": "github.com/Stack-Box/stackbox",
+			"description" : "A Docker based developer productivity tool to setup project infra and boilerplates instantly"
+		},
+		{
+			"icon" : "heartbeat",
+			"title" : "Journal AR",
+			"website": "https://devpost.com/software/journalar",
+			"website_alt": "devpost.com/software/journalar",
+			"description" : "An AR app for people looking to take care of their mental health through active journaling. Built at the MIT Reality Hack 2020."
+		},
+		{
+			"icon" : "newspaper",
+			"title" : "AR Magazine",
+			"website": "https://www.linkedin.com/feed/update/urn:li:activity:6631473028242989056/",
+			"website_alt": "linkedin.com/feed/post",
+			"description" : "Built an AR experience for Intuit India's magazine content using Unity. The app extends physical magazine content virtually."
+		},
+		{
+			"icon" : "shopping-cart",
+			"title" : "Proximity Marketing",
+			"description" : "BLE Beacons enabled proximity sensing and RFM powered product recommendations to enhance customer experience for brick and mortar Stores"
+		}
+	]
+}

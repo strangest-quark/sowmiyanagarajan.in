@@ -215,7 +215,23 @@ section.yellow .progress .bg-blue {
 }
 
 section.voilet {
-  background-color: #4768FD;
+   background-color: #4768FD;
+ }
+
+section.neonpink {
+  background-color: #ffacb7;
+}
+
+section.neonyellow {
+  background-color: #fff591;
+}
+
+section.neonblue {
+  background-color: #05dfd7;
+}
+
+section.neongreen {
+  background-color: #a3f7bf;
 }
 
 section.blue {
@@ -250,7 +266,11 @@ section.pink {
 }
 
 .progress .bg-blue {
-  background-color: #2e96a5;
+   background-color: #2e96a5;
+ }
+
+.progress .bg-pink {
+  background-color: #f35588;
 }
 
 .card {

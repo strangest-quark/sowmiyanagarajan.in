@@ -1,9 +1,9 @@
 {
 	"title" : "Skills",
 	"skills" : {
-		"Sketch" : "90",
-		"Adobe XD" : "80",
-		"Illustrator" : "65",
-		"Photoshop" : "97"
+		"Java" : "85",
+		"Kubernetes" : "65",
+		"Python" : "85",
+		"Vue.js" : "50"
 	}
 }
