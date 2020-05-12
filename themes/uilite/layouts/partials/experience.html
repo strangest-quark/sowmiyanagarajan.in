@@ -11,10 +11,11 @@
         <span class="date">{{ $element.timeperiod }}</span>
         <h6 class="h3 my-2">{{ $element.company }}</h6>
         {{ $website := $element.website }}
+        {{ $website_alt := $element.website_alt }}
         {{ if $website }}
         <a target="_blank" href="{{ $website }}">
           <i class="fas fa-link"></i>
-          {{ $website }}
+          {{ $website_alt }}
         </a>
         {{ end }}
         <p class="">{{ $element.description }}</p>
