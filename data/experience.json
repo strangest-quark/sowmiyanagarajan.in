@@ -1,0 +1,15 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "Aug 2019 - Present",
+			"company" : "Intuit",
+			"description" : "Software Engineer 1"
+		},
+		{
+			"timeperiod" : "Jan 2019 - June 2019",
+			"company" : "Intuit",
+			"description" : "Co-op Intern"
+		}
+	]
+}
