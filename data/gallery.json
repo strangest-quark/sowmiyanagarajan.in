@@ -3,19 +3,19 @@
   "gallery" : [
     {
       "description" : "ACM ICPC 2017",
-      "picture": "icpc.png"
+      "picture": "icpc-min.png"
     },
     {
       "description" : "MIT Reality Hack",
-      "picture": "mit2.png"
+      "picture": "mit2-min.png"
     },
     {
       "description" : "AR Magazine",
-      "picture": "sasan2.png"
+      "picture": "sasan2-min.png"
     },
     {
       "description" : "Hosting Azure ML Workshop",
-      "picture": "azure.png"
+      "picture": "azure-min.png"
     }
   ]
 }
