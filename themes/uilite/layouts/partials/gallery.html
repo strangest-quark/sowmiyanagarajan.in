@@ -1,0 +1,26 @@
+{{ $gallery := .Site.Data.gallery }}
+{{ $sidebar := .Site.Data.sidebar }}
+
+<section class="blue">
+    <h3 class="heading">{{ $gallery.title }}</h3>
+
+    <div class="row justify-content-md-center text-center">
+
+        {{ range $index, $element := $gallery.gallery }}
+
+        <div class="col-12 col-lg-6 col-md-6 mb-3">
+            <div class="card p-4">
+                {{ if $element.picture }}
+                <div class="hvrbox">
+                    <img src="{{.Site.BaseURL}}images/{{ $element.picture}}" width=auto height="250px">
+                    <div class="hvrbox-layer_top">
+                        <h6 class="hvrbox-text">{{ $element.description }}</h6>
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+
+        {{ end }}
+    </div>
+</section>

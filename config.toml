@@ -2,4 +2,4 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Sowmiya"
 theme = "uilite"
-googleAnalytics: G-EZFJKFZ0ZT
+googleAnalytics = "G-EZFJKFZ0ZT"
