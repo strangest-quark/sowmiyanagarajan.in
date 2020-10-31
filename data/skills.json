@@ -1,9 +1,15 @@
 {
-	"title" : "Skills",
-	"skills" : {
-		"Java" : "85",
-		"Kubernetes" : "65",
-		"Python" : "85",
-		"Vue.js" : "50"
+	"title": "Skills",
+	"skills": {
+		"Unity": "20",
+		"Blender": "20",
+		"Figma": "20",
+		"Vue.js": "20",
+		"Java": "20",
+		"Python": "20",
+		"PyTorch": "20",
+		"AWS": "20",
+		"Arduino": "20",
+		"Kubernetes": "20"
 	}
 }

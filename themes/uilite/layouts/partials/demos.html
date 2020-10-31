@@ -1,0 +1,65 @@
+{{ $demo := .Site.Data.demo }}
+
+<section id="activity" class="neonyellow">
+    <h2 class="heading">{{ $demo.title }}</h2>
+    <div class="vid-main-wrapper clearfix">
+
+        <!-- THE YOUTUBE PLAYER -->
+        <div class="vid-container">
+            <iframe id="vid_frame" src="https://www.youtube.com/embed/dDTi32mGa-M??rel=0&showinfo=0&autohide=1"
+                frameborder="0" width="560" height="315" allowfullscreen></iframe>
+        </div>
+
+        <!-- THE PLAYLIST -->
+        <div class="vid-list-container">
+            <ol id="vid-list">
+                <li>
+                    <a href="javascript:void();"
+                        onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/dDTi32mGa-M?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <span class="vid-thumb"><img width=72
+                                src="https://img.youtube.com/vi/dDTi32mGa-M/default.jpg" /></span>
+                        <div class="desc">Credit Card Insights</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void();"
+                        onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/QPFXY4AR5Pg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <span class="vid-thumb"><img width=72
+                                src="https://img.youtube.com/vi/QPFXY4AR5Pg/default.jpg" /></span>
+                        <div class="desc">AI for Traffic Signal Control</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void();"
+                        onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/yW_-JQYLPvg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <span class="vid-thumb"><img width=72
+                                src="https://img.youtube.com/vi/yW_-JQYLPvg/default.jpg" /></span>
+                        <div class="desc">iConsent</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void();"
+                        onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/PSUke9iRAIY?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <span class="vid-thumb"><img width=72
+                                src="https://img.youtube.com/vi/PSUke9iRAIY/default.jpg" /></span>
+                        <div class="desc">Journal AR</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void();"
+                        onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/lKFoUMhcUt4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <span class="vid-thumb"><img width=72
+                                src="https://img.youtube.com/vi/lKFoUMhcUt4/default.jpg" /></span>
+                        <div class="desc">Optimal Fleet Tracking</div>
+                    </a>
+                </li>
+                <li>
+                    <span class="vid-thumb"><img width=72/></span>
+                </a>
+                </li>
+                </ul>
+        </div>
+
+
+    </div>
+</section>

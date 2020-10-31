@@ -3,18 +3,22 @@
   "gallery" : [
     {
       "description" : "ACM ICPC 2017",
+      "tagline": "@ Amrita Vishwa Vidyapeetham",
       "picture": "icpc-min.png"
     },
     {
-      "description" : "MIT Reality Hack",
+      "description" : "MIT Reality Hack 2020",
+      "tagline": "@ MIT, Cambridge",
       "picture": "mit2-min.png"
     },
     {
       "description" : "AR Magazine",
+      "tagline": "@ Intuit CEO Townhall",
       "picture": "sasan2-min.png"
     },
     {
       "description" : "Hosting Azure ML Workshop",
+      "tagline": "@ Amrita Vishwa Vidyapeetham",
       "picture": "azure-min.png"
     }
   ]

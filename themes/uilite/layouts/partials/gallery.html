@@ -14,7 +14,10 @@
                 <div class="hvrbox">
                     <img src="{{.Site.BaseURL}}images/{{ $element.picture}}" width=auto height="250px">
                     <div class="hvrbox-layer_top">
-                        <h6 class="hvrbox-text">{{ $element.description }}</h6>
+                    <div  class="hvrbox-text">
+                        <h6>{{ $element.description }}</h6>
+                        <p style="font-size: 13px;">{{ $element.tagline }}</p>
+                    </div>
                     </div>
                 </div>
                 {{end}}

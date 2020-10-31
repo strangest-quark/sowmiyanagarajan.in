@@ -9,7 +9,7 @@
 
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
         <span class="date">{{ $element.timeperiod }}</span>
-        <h6 class="h3 my-2">{{ $element.company }}</h6>
+        <h3 style="text-transform: none;">{{ $element.company }}</h3>
         {{ $website := $element.website }}
         {{ $website_alt := $element.website_alt }}
         {{ if $website }}
@@ -18,7 +18,7 @@
           {{ $website_alt }}
         </a>
         {{ end }}
-        <p class="">{{ $element.description }}</p>
+        <h6>{{ $element.description }}</h6>
       </div>
     </div>
     {{ end }}

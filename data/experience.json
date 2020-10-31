@@ -3,13 +3,18 @@
 	"experience" : [
 		{
 			"timeperiod" : "Aug 2019 - Present",
-			"company" : "Intuit",
-			"description" : "Software Engineer 1"
+			"company" : "Software Engineer 1",
+			"description" : "Intuit"
 		},
 		{
-			"timeperiod" : "May 2018 and Jan 2019",
-			"company" : "Intuit",
-			"description" : "Summer and Co-op Intern"
+			"timeperiod" : "Jan 2019 - Jul 2019",
+			"company" : "Co-op Intern",
+			"description" : "Intuit"
+		},
+		{
+			"timeperiod" : "May 2018 - Jul 2018",
+			"company" : "Summer Intern",
+			"description" : "Intuit"
 		}
 	]
 }

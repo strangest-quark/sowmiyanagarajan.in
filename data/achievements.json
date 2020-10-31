@@ -1,24 +1,24 @@
 {
-  "title" : "Achievements",
+  "title" : "Hackathons",
   "achievements" : [
     {
-      "title" : "Techgig Location Services Hack",
-      "description" : "1st Runners in Techgig Codegladiators Hackathon under Location Services theme sponsored by Here Maps. Our team built a Truck Fleet Management and Optimization system using Here APIs.",
+      "title" : "Sahamati AA Hackathon",
+      "website": "devfolio.co/iconsent",
+      "website_alt": "https://devfolio.co/submissions/iconsent",
+      "description" : "Winners for iConsent project. Built a consent UI toolkit for low-literate users.",
+      "picture": "aa.png"
+    },
+    {
+      "title" : "Location Services Hack",
+      "description" : "1st Runners in location theme sponsored by Techgig and Here Maps. Built optimal Fleet Management system.",
       "picture": "here.jpg"
     },
     {
-      "title" : "K-GIS Hackathon",
+      "title" : "BTS Global Hackathon",
       "website": "https://github.com/muffyharsha/Team-Anonymous-BTS",
-      "website_alt": "github.com/muffyharsha/Team-Anonymous-BTS",
-      "description" : "Awarded for the project \"AI for Traffic Signal Control\" by Karnataka State Remote Sensing and Application Centre(KSRSAC) at Bengaluru Tech Summit.",
+      "website_alt": "github.com/Team-Anonymous-BTS",
+      "description" : "Awarded 2nd Runners for the project \"AI for Traffic Signal Control\" by KSRSAC.",
       "picture": "bts.jpg"
-    },
-    {
-      "title" : "Axis AI Challenge",
-      "website": "https://github.com/strangest-quark/TableExtraction",
-      "website_alt": "github.com/strangest-quark/TableExtraction",
-      "description" : "Built a tabular data extraction system for tables in PDFs and images using Deep learning techniques. The product was trained on Axis Bank receipts/challans. Awarded 2nd Runners.",
-      "icon": "cogs"
     },
     {
       "title" : "Intel Python Hack Fury",
