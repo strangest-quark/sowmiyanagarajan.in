@@ -6,7 +6,7 @@
 			"title" : "Stackbox",
 			"website": "https://github.com/Stack-Box/stackbox",
 			"website_alt": "github.com/Stack-Box/stackbox",
-			"description" : "A Docker based developer productivity tool to setup project infra and boilerplates instantly"
+			"description" : "A Docker based developer productivity tool to setup dev infra and boilerplates instantly."
 		},
 		{
 			"icon" : "heartbeat",
@@ -25,7 +25,7 @@
 		{
 			"icon" : "shopping-cart",
 			"title" : "Proximity Marketing",
-			"description" : "BLE Beacons enabled proximity sensing and RFM powered product recommendations to enhance customer experience for brick and mortar Stores"
+			"description" : "BLE Beacons enabled proximity sensing and RFM powered product recommendations to enhance brick and mortar stores experience."
 		}
 	]
 }
