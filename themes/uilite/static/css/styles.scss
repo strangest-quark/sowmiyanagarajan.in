@@ -101,12 +101,13 @@ h1,h2,h3,h4,h5,h6{
 
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: 800;
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 }
 
 .heading{
   font-size: 38px;
+  color: #002040;
 }
 
 .highlight{
@@ -225,7 +226,7 @@ section{
   }
 
   &.neonyellow{
-    background-color: #fff591;
+    background-color: #fff698;
   }
 
   &.neonblue{

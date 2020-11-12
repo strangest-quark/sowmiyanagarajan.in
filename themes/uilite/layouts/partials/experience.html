@@ -1,15 +1,15 @@
 {{ $experience := .Site.Data.experience }}
 
 <section id="experience" class="neongreen">
-  <h2 class="heading">{{ $experience.title }}</h2>
+  <h3 class="texteb"> <span class="spaneb">{{ $experience.title }}</span></h3>
   <div id="timeline">
     {{ range $index, $element := $experience.experience }}
     <div class="timeline-item clearfix">
       <div class="timeline-icon"></div>
 
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
-        <span class="date">{{ $element.timeperiod }}</span>
-        <h3 style="text-transform: none;">{{ $element.company }}</h3>
+        <span class="date" id="greentext">{{ $element.timeperiod }}</span>
+        <h3 id="greentext" style="text-transform: none;">{{ $element.company }}</h3>
         {{ $website := $element.website }}
         {{ $website_alt := $element.website_alt }}
         {{ if $website }}
@@ -18,7 +18,7 @@
           {{ $website_alt }}
         </a>
         {{ end }}
-        <h6>{{ $element.description }}</h6>
+        <h6 id="greentext">{{ $element.description }}</h6>
       </div>
     </div>
     {{ end }}

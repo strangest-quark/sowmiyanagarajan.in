@@ -1,10 +1,10 @@
 {{ $skills := .Site.Data.skills }}
 
 <section id="skills" class="neonblue" style="padding-right: 8%;">
-  <h2 class="heading">{{ $skills.title }}</h2>
+  <h3 class="textsb"> <span class="spansb">{{ $skills.title }}</span></h3>
   {{ range $key, $value := $skills.skills }}
-  <button class="btn btn--hover-icon" style="margin-bottom: 5px;">
-    <span>{{$key}}</span>
+  <button class="btn" id="lift">
+    <span style="color: #045f5e;">{{$key}}</span>
   </button>
   {{ end }}
 
