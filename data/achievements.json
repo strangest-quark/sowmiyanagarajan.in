@@ -1,29 +1,29 @@
 {
-  "title" : "Hackathons",
-  "achievements" : [
+  "title": "Hackathons",
+  "achievements": [
     {
-      "title" : "Sahamati AA Hackathon",
+      "title": "Sahamati AA Hackathon",
       "website": "devfolio.co/iconsent",
       "website_alt": "https://devfolio.co/submissions/iconsent",
-      "description" : "Winners for iConsent project. Built a consent UI toolkit for low-literate users.",
-      "picture": "aa.png"
+      "description": "Winners for iConsent project. Built a consent UI toolkit for low-literate users.",
+      "picture": "https://ik.imagekit.io/sn5/my-portfolio-site/aa_8winlJN5XQW.png?updatedAt=1641670194843"
     },
     {
-      "title" : "Location Services Hack",
-      "description" : "1st Runners in location theme sponsored by Techgig and Here Maps. Built optimal Fleet Management system.",
-      "picture": "here.jpg"
+      "title": "Location Services Hack",
+      "description": "1st Runners in location theme sponsored by Techgig and Here Maps. Built optimal Fleet Management system.",
+      "picture": "https://ik.imagekit.io/sn5/my-portfolio-site/here_Baoy1NbEU2wW.jpg?updatedAt=1641670195077"
     },
     {
-      "title" : "BTS Global Hackathon",
+      "title": "BTS Global Hackathon",
       "website": "https://github.com/muffyharsha/Team-Anonymous-BTS",
       "website_alt": "github.com/Team-Anonymous-BTS",
-      "description" : "Awarded 2nd Runners for the project \"AI for Traffic Signal Control\" by KSRSAC.",
-      "picture": "bts.jpg"
+      "description": "Awarded 2nd Runners for the project \"AI for Traffic Signal Control\" by KSRSAC.",
+      "picture": "https://ik.imagekit.io/sn5/my-portfolio-site/bts_IiwGezzSy.jpg?updatedAt=1641670194710"
     },
     {
-      "title" : "Intel Python Hack Fury",
-      "description" : "1st Runners for the project \"Warehouse Monitoring Drone\" utilizing Intel's code-performance optimization tools.",
-      "picture": "intel.jpeg"
+      "title": "Intel Python Hack Fury",
+      "description": "1st Runners for the project \"Warehouse Monitoring Drone\" utilizing Intel's code-performance optimization tools.",
+      "picture": "https://ik.imagekit.io/sn5/my-portfolio-site/intel_JlGR8_2baUb.jpeg?updatedAt=1641670195897"
     }
   ]
 }
