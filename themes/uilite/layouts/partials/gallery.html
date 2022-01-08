@@ -1,27 +1,29 @@
-{{ $gallery := .Site.Data.gallery }} {{ $sidebar := .Site.Data.sidebar }}
+{{ $gallery := .Site.Data.gallery }}
+{{ $sidebar := .Site.Data.sidebar }}
 
 <section class="blue">
-  <h3 class="heading">{{ $gallery.title }}</h3>
+    <h3 class="heading">{{ $gallery.title }}</h3>
 
-  <div class="row justify-content-md-center text-center">
-    {{ range $index, $element := $gallery.gallery }}
+    <div class="row justify-content-md-center text-center">
 
-    <div class="col-12 col-lg-6 col-md-6 mb-3">
-      <div class="card p-4">
-        {{ if $element.picture }}
-        <div class="hvrbox">
-          <img src="{{ $element.picture}}" width="auto" height="250px" />
-          <div class="hvrbox-layer_top">
-            <div class="hvrbox-text">
-              <h6>{{ $element.description }}</h6>
-              <p style="font-size: 13px">{{ $element.tagline }}</p>
+        {{ range $index, $element := $gallery.gallery }}
+
+        <div class="col-12 col-lg-6 col-md-6 mb-3">
+            <div class="card p-4">
+                {{ if $element.picture }}
+                <div class="hvrbox">
+                    <img src="{{ $element.picture}}" width=auto height="250px">
+                    <div class="hvrbox-layer_top">
+                    <div  class="hvrbox-text">
+                        <h6>{{ $element.description }}</h6>
+                        <p style="font-size: 13px;">{{ $element.tagline }}</p>
+                    </div>
+                    </div>
+                </div>
+                {{end}}
             </div>
-          </div>
         </div>
-        {{end}}
-      </div>
-    </div>
 
-    {{ end }}
-  </div>
+        {{ end }}
+    </div>
 </section>
