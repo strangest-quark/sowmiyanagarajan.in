@@ -2,7 +2,12 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "Aug 2019 - Present",
+			"timeperiod" : "May 2022 - Present",
+			"company" : "Software Engineer 2",
+			"description" : "Google"
+		},
+		{
+			"timeperiod" : "Aug 2019 - May 2022",
 			"company" : "Software Engineer 2",
 			"description" : "Intuit"
 		},
