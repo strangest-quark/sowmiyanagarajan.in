@@ -8,7 +8,7 @@
       <div class="timeline-icon"></div>
 
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
-        <span class="date">{{ $element.timeperiod }}</span>
+        <span class="date para">{{ $element.timeperiod }}</span>
         <h3 style="text-transform: none;">{{ $element.company }}</h3>
         {{ $website := $element.website }}
         {{ $website_alt := $element.website_alt }}

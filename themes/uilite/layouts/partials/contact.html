@@ -2,26 +2,26 @@
 
 <section id="contact" class="neonblack d-flex align-items-center" style="height: 100vh;">
   <div class="container">
-      <h2 class="heading mb-3" style="color:white">Contact</h2>
+    <h2 class="heading mb-3" style="color:white">Contact</h2>
 
-      <div class="text-success my-3">
-        {{ $config.message }}
+    <div class="text-success my-3">
+      {{ $config.message }}
+    </div>
+
+    <form action="https://formspree.io/{{ $config.email }}" method="post">
+      <div class="form-row" style="padding-bottom:10px">
+        <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+          <input type="text" class="form-control para" name="name" placeholder="Name">
+        </div>
+        <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+          <input type="email" class="form-control para" name="_replyto" placeholder="Email">
+        </div>
       </div>
 
-      <form action="https://formspree.io/{{ $config.email }}" method="post">
-        <div class="form-row" style="padding-bottom:10px">
-          <div class="col-12 col-xl-6 col-lg-6 col-md-6">
-            <input type="text" class="form-control" name="name" placeholder="Name">
-          </div>
-          <div class="col-12 col-xl-6 col-lg-6 col-md-6">
-            <input type="email" class="form-control" name="_replyto" placeholder="Email">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <textarea placeholder="Message" name="message" class="form-control" rows="10"></textarea>
-        </div>
-        <button type="submit" class="btn btn-light">Submit</button>
-      </form>
+      <div class="form-group">
+        <textarea placeholder="Message" name="message" class="form-control para" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn btn-light para">Submit</button>
+    </form>
   </div>
 </section>
